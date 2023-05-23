@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer, main, nav, article, aside, section, div {
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+
+/* LAYOUT */
+
+.red{
+    display: flex;
+}
+
+.red:nth-child(2), .red:last-child{
+    flex-wrap: wrap;
+}
+
+.d-kolona-1 {flex-basis: 8.33%;}
+.d-kolona-2 {flex-basis: 16.66%;}
+.d-kolona-3 {flex-basis: 25%;}
+.d-kolona-4 {flex-basis: 33.33%;}
+.d-kolona-5 {flex-basis: 41.66%;}
+.d-kolona-6 {flex-basis: 50%;}
+.d-kolona-7 {flex-basis: 58.33%;}
+.d-kolona-8 {flex-basis: 66.66%;}
+.d-kolona-9 {flex-basis: 75%;}
+.d-kolona-10 {flex-basis: 83.33%;}
+.d-kolona-11 {flex-basis: 91.66%;}
+.d-kolona-12 {flex-basis: 100%;}

@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+	border: 1px dashed #666;
+	padding: 1em;
+}
+
+.wrapper div {
+	background: #eee;
+	border: 1px solid #666;
+	padding: 1em;
+	text-align: center;
+	width: 150px;
+	margin: 1em;
+}
+
+/* kako bi primijenili flexbox model, najprije moramo definirati fleksibilan spremnik */
+/* SVOJSTVA KOJA DAJEMO FLEKSIBILNOM SPREMNIKU */
+.flex-container{
+	display: flex;
+}
+
+/* smjer glavne osi (smjer u kojemu su postavljeni fleksibilni elementi) */
+/*
+.flex-container{
+	flex-direction: column;
+}
+*/
+
+/* jesu li fleksibilni elementi smješteni u više redova ili stupaca */
+/*
+.flex-container{
+	width: 600px;
+	flex-wrap: wrap;
+}
+*/
+
+/* kraći zapis za prethodna dva svojstva */
+/*
+.flex-container{
+	width: 600px;
+	flex-flow: row wrap-reverse;
+}
+*/
+
+/* poravnanje po glavnoj osi */
+/*
+.flex-container{
+	justify-content: space-evenly;
+}
+*/
+
+/* poravnanje po poprećnoj osi */
+/*
+.flex-container{
+	height: 600px;
+	align-items: center;
+}
+*/
+
+/* poravnanje po poprećnoj osi kada su raspoređeni u više redova ili stupaca */
+/*
+.flex-container{
+	width: 600px;
+	height: 600px;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+*/
+
+/* SVOJSTVA KOJA DAJEMO FLEKSIBILNIM ELEMENTIMA */
+/* redoslijed fleksibilnih elemenata: default 0 */
+/*
+.flex-item:nth-child(3){
+	order: -1;
+}
+*/
+
+
+/* za koliko se fleksibilni element može uvećati po glavnoj osi u odnosu na druge: default 0 */
+/*
+ .flex-item{
+	flex-grow: 1;
+ }
+
+ .flex-item:nth-child(3){
+	flex-grow: 3;
+ }
+ */
+
+ /* za koliko se fleksibilni element može smanjiti po glavnoj osi u odnosu na ostale: default 1 */
+ /*
+ .flex-item:nth-child(3){
+	flex-shrink: 3;
+ }
+ */
+
+/* početna veličina fleksibilnog elemenat po glavnoj osi */
+/*
+.flex-item:nth-child(3){
+	flex-basis: 600px;
+}
+*/
+
+/* kraći zapis za prethodna tri svojstva */
+/*
+.flex-item:nth-child(3){
+	flex: 0 0 600px;
+}
+*/
+
+/* poravnanje zadanog fleksibilnog elementa prema poprećnoj osi */
+.flex-container{
+	height: 600px;
+	align-items: center;
+}
+
+.flex-item:nth-child(3){
+	align-self: flex-end;
+}
+
+
+

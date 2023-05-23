@@ -1,0 +1,124 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    background-color: #f93;
+}
+
+/* ----------------- width ----------------- */
+.width1{
+    width: 50%;
+}
+
+.width2{
+    width: 500px;
+}
+
+.width3{
+    font-size: 20px;
+    width: 20em;
+}
+
+/* ----------------- height ----------------- */
+.height1{
+    height: 50%;
+}
+
+.height2{
+    height: 150px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.height3{
+    font-size: 20px;
+    height: 5em;
+}
+
+/* ----------------- box-sizing ----------------- */
+.clear{
+    background-color: transparent;
+}
+
+.width-height{
+    width: 25%;
+    float: left;
+    height: 300px;
+    padding: 10px;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* ----------------- border ----------------- */
+.border1{
+    border: 4px groove silver;
+}
+
+.border2{
+    border-top: 6px solid #333;
+    border-right: 10px double #f33;
+    border-bottom: 5px dashed #33f;
+    border-left: 8px dotted #3f3;
+    /* padding: 10px;
+    background-clip: content-box; */
+}
+
+/* ----------------- padding ----------------- */
+.padding1{
+    padding: 20px;
+}
+
+.padding2{
+    /*
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    */
+
+    /* kraći zapis */
+    padding: 20px 40px 10px 50px;
+
+    text-align: justify;
+}
+
+/* ----------------- margin ----------------- */
+.margin1{
+    margin: 20px;
+}
+
+.margin2{
+    /*
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    */
+
+    /* kraći zapis */
+    margin: 20px 40px 60px 100px;
+}
+
+.margin-auto{
+    /* 
+    margin: 20px auto;
+    margin: 20px auto 50px;
+    margin-left: auto;
+    */
+    margin: 20px auto 60px;
+}

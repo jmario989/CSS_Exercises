@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+p:first-of-type{
+    /* background: repeating-linear-gradient(90deg, red, green 10%, blue 20%); */
+    background: linear-gradient(to right, red, green, blue);
+}
+
+p:nth-of-type(2){
+   /* background: repeating-radial-gradient(circle closest-corner at 75% 25%, red, blue 20%); */
+   background: radial-gradient(circle closest-corner at 75% 25%, red, blue);
+}
+
+p:nth-of-type(3){
+    background: radial-gradient(at 75% 25%, rgba(77, 148, 255, 1), rgba(77, 148, 255, 0));
+}
+
+p:last-of-type{
+    font-size: 32px;
+    background: linear-gradient(261deg, #c40f61, #e27210);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

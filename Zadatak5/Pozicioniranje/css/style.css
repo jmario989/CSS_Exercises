@@ -1,0 +1,63 @@
+body {
+    font-size: 20px;
+}
+
+img {
+    width: 300px
+}
+
+/* unaprijed je zadano statično pozicioniranje */
+
+/* relativno pozicioniranje */
+/*
+#pomak{
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+*/
+
+/* apsolutno pozicioniranje */
+/*
+#roditelj{
+    position: relative;
+    border: solid;
+}
+
+#pomak{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+*/
+
+/* fiksno pozicioniranje */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+}
+*/
+
+
+/* ljepljivo pozicioniranje */
+/*
+#pomak{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+*/
+
+/* preklapanje elemenata */
+/*
+#pomak{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+p{
+    position: relative;
+    z-index: 2;
+}
+*/

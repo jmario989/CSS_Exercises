@@ -1,0 +1,13 @@
+body {
+    background: url(../slike/pattern.png),
+    url(../slike/fire.png) no-repeat center 30%/18% fixed,
+    url(../slike/blossom.jpg) no-repeat center center/cover fixed;
+    
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  h1 {
+    background-color: #333;
+  }
